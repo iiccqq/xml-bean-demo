@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<res>
+    <items>
+        <item>
+            <id>1</id>
+            <lastname>fc</lastname>
+            <age>1</age>
+            <dateborn>2017-09-25</dateborn>
+        </item>
+        <item>
+            <id>1</id>
+            <lastname>fc2</lastname>
+            <age>2</age>
+            <dateborn>2017-09-25</dateborn>
+        </item>
+    </items>
+    <password>password</password>
+    <car>Audi</car>
+    <letter>2</letter>
+</res>
+

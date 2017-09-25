@@ -1,0 +1,59 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="res" >
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="items" >
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="item" maxOccurs="unbounded"  >
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="id" type="xs:integer"/>
+										<xs:element name="lastname" type="xs:string"/>
+										<xs:element name="age" >											
+											<xs:simpleType>
+												<xs:restriction base="xs:integer">
+													<xs:minInclusive value="0"/>
+													<xs:maxInclusive value="120"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="dateborn" type="xs:date"/> 
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="password">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:length value="8"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element> 
+				<xs:element name="car">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Audi"/>
+							<xs:enumeration value="Golf"/>
+							<xs:enumeration value="BMW"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="letter">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[a-z]"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="product">
+					<xs:complexType>
+						<xs:attribute name="prodid" type="xs:positiveInteger"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
