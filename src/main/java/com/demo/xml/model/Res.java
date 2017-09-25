@@ -1,8 +1,8 @@
 //
-// ´ËÎÄ¼şÊÇÓÉ JavaTM Architecture for XML Binding (JAXB) ÒıÓÃÊµÏÖ v2.2.8-b130911.1802 Éú³ÉµÄ
-// Çë·ÃÎÊ <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// ÔÚÖØĞÂ±àÒëÔ´Ä£Ê½Ê±, ¶Ô´ËÎÄ¼şµÄËùÓĞĞŞ¸Ä¶¼½«¶ªÊ§¡£
-// Éú³ÉÊ±¼ä: 2017.09.25 Ê±¼ä 02:40:34 PM CST 
+// æ­¤æ–‡ä»¶æ˜¯ç”± JavaTM Architecture for XML Binding (JAXB) å¼•ç”¨å®ç° v2.2.8-b130911.1802 ç”Ÿæˆçš„
+// è¯·è®¿é—® <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+// åœ¨é‡æ–°ç¼–è¯‘æºæ¨¡å¼æ—¶, å¯¹æ­¤æ–‡ä»¶çš„æ‰€æœ‰ä¿®æ”¹éƒ½å°†ä¸¢å¤±ã€‚
+// ç”Ÿæˆæ—¶é—´: 2017.09.25 æ—¶é—´ 02:48:07 PM CST 
 //
 
 
@@ -22,9 +22,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>anonymous complex typeµÄ Java Àà¡£
+ * <p>anonymous complex typeçš„ Java ç±»ã€‚
  * 
- * <p>ÒÔÏÂÄ£Ê½Æ¬¶ÎÖ¸¶¨°üº¬ÔÚ´ËÀàÖĞµÄÔ¤ÆÚÄÚÈİ¡£
+ * <p>ä»¥ä¸‹æ¨¡å¼ç‰‡æ®µæŒ‡å®šåŒ…å«åœ¨æ­¤ç±»ä¸­çš„é¢„æœŸå†…å®¹ã€‚
  * 
  * <pre>
  * &lt;complexType>
@@ -125,7 +125,7 @@ public class Res {
     protected Res.Product product;
 
     /**
-     * »ñÈ¡itemsÊôĞÔµÄÖµ¡£
+     * è·å–itemså±æ€§çš„å€¼ã€‚
      * 
      * @return
      *     possible object is
@@ -137,7 +137,7 @@ public class Res {
     }
 
     /**
-     * ÉèÖÃitemsÊôĞÔµÄÖµ¡£
+     * è®¾ç½®itemså±æ€§çš„å€¼ã€‚
      * 
      * @param value
      *     allowed object is
@@ -149,7 +149,7 @@ public class Res {
     }
 
     /**
-     * »ñÈ¡passwordÊôĞÔµÄÖµ¡£
+     * è·å–passwordå±æ€§çš„å€¼ã€‚
      * 
      * @return
      *     possible object is
@@ -161,7 +161,7 @@ public class Res {
     }
 
     /**
-     * ÉèÖÃpasswordÊôĞÔµÄÖµ¡£
+     * è®¾ç½®passwordå±æ€§çš„å€¼ã€‚
      * 
      * @param value
      *     allowed object is
@@ -173,7 +173,7 @@ public class Res {
     }
 
     /**
-     * »ñÈ¡carÊôĞÔµÄÖµ¡£
+     * è·å–carå±æ€§çš„å€¼ã€‚
      * 
      * @return
      *     possible object is
@@ -185,7 +185,7 @@ public class Res {
     }
 
     /**
-     * ÉèÖÃcarÊôĞÔµÄÖµ¡£
+     * è®¾ç½®carå±æ€§çš„å€¼ã€‚
      * 
      * @param value
      *     allowed object is
@@ -197,7 +197,7 @@ public class Res {
     }
 
     /**
-     * »ñÈ¡letterÊôĞÔµÄÖµ¡£
+     * è·å–letterå±æ€§çš„å€¼ã€‚
      * 
      * @return
      *     possible object is
@@ -209,7 +209,7 @@ public class Res {
     }
 
     /**
-     * ÉèÖÃletterÊôĞÔµÄÖµ¡£
+     * è®¾ç½®letterå±æ€§çš„å€¼ã€‚
      * 
      * @param value
      *     allowed object is
@@ -221,7 +221,7 @@ public class Res {
     }
 
     /**
-     * »ñÈ¡productÊôĞÔµÄÖµ¡£
+     * è·å–productå±æ€§çš„å€¼ã€‚
      * 
      * @return
      *     possible object is
@@ -233,7 +233,7 @@ public class Res {
     }
 
     /**
-     * ÉèÖÃproductÊôĞÔµÄÖµ¡£
+     * è®¾ç½®productå±æ€§çš„å€¼ã€‚
      * 
      * @param value
      *     allowed object is
@@ -246,9 +246,9 @@ public class Res {
 
 
     /**
-     * <p>anonymous complex typeµÄ Java Àà¡£
+     * <p>anonymous complex typeçš„ Java ç±»ã€‚
      * 
-     * <p>ÒÔÏÂÄ£Ê½Æ¬¶ÎÖ¸¶¨°üº¬ÔÚ´ËÀàÖĞµÄÔ¤ÆÚÄÚÈİ¡£
+     * <p>ä»¥ä¸‹æ¨¡å¼ç‰‡æ®µæŒ‡å®šåŒ…å«åœ¨æ­¤ç±»ä¸­çš„é¢„æœŸå†…å®¹ã€‚
      * 
      * <pre>
      * &lt;complexType>
@@ -324,9 +324,9 @@ public class Res {
 
 
         /**
-         * <p>anonymous complex typeµÄ Java Àà¡£
+         * <p>anonymous complex typeçš„ Java ç±»ã€‚
          * 
-         * <p>ÒÔÏÂÄ£Ê½Æ¬¶ÎÖ¸¶¨°üº¬ÔÚ´ËÀàÖĞµÄÔ¤ÆÚÄÚÈİ¡£
+         * <p>ä»¥ä¸‹æ¨¡å¼ç‰‡æ®µæŒ‡å®šåŒ…å«åœ¨æ­¤ç±»ä¸­çš„é¢„æœŸå†…å®¹ã€‚
          * 
          * <pre>
          * &lt;complexType>
@@ -371,7 +371,7 @@ public class Res {
             protected XMLGregorianCalendar dateborn;
 
             /**
-             * »ñÈ¡idÊôĞÔµÄÖµ¡£
+             * è·å–idå±æ€§çš„å€¼ã€‚
              * 
              * @return
              *     possible object is
@@ -383,7 +383,7 @@ public class Res {
             }
 
             /**
-             * ÉèÖÃidÊôĞÔµÄÖµ¡£
+             * è®¾ç½®idå±æ€§çš„å€¼ã€‚
              * 
              * @param value
              *     allowed object is
@@ -395,7 +395,7 @@ public class Res {
             }
 
             /**
-             * »ñÈ¡lastnameÊôĞÔµÄÖµ¡£
+             * è·å–lastnameå±æ€§çš„å€¼ã€‚
              * 
              * @return
              *     possible object is
@@ -407,7 +407,7 @@ public class Res {
             }
 
             /**
-             * ÉèÖÃlastnameÊôĞÔµÄÖµ¡£
+             * è®¾ç½®lastnameå±æ€§çš„å€¼ã€‚
              * 
              * @param value
              *     allowed object is
@@ -419,7 +419,7 @@ public class Res {
             }
 
             /**
-             * »ñÈ¡ageÊôĞÔµÄÖµ¡£
+             * è·å–ageå±æ€§çš„å€¼ã€‚
              * 
              */
             public int getAge() {
@@ -427,7 +427,7 @@ public class Res {
             }
 
             /**
-             * ÉèÖÃageÊôĞÔµÄÖµ¡£
+             * è®¾ç½®ageå±æ€§çš„å€¼ã€‚
              * 
              */
             public void setAge(int value) {
@@ -435,7 +435,7 @@ public class Res {
             }
 
             /**
-             * »ñÈ¡datebornÊôĞÔµÄÖµ¡£
+             * è·å–datebornå±æ€§çš„å€¼ã€‚
              * 
              * @return
              *     possible object is
@@ -447,7 +447,7 @@ public class Res {
             }
 
             /**
-             * ÉèÖÃdatebornÊôĞÔµÄÖµ¡£
+             * è®¾ç½®datebornå±æ€§çš„å€¼ã€‚
              * 
              * @param value
              *     allowed object is
@@ -464,9 +464,9 @@ public class Res {
 
 
     /**
-     * <p>anonymous complex typeµÄ Java Àà¡£
+     * <p>anonymous complex typeçš„ Java ç±»ã€‚
      * 
-     * <p>ÒÔÏÂÄ£Ê½Æ¬¶ÎÖ¸¶¨°üº¬ÔÚ´ËÀàÖĞµÄÔ¤ÆÚÄÚÈİ¡£
+     * <p>ä»¥ä¸‹æ¨¡å¼ç‰‡æ®µæŒ‡å®šåŒ…å«åœ¨æ­¤ç±»ä¸­çš„é¢„æœŸå†…å®¹ã€‚
      * 
      * <pre>
      * &lt;complexType>
@@ -489,7 +489,7 @@ public class Res {
         protected BigInteger prodid;
 
         /**
-         * »ñÈ¡prodidÊôĞÔµÄÖµ¡£
+         * è·å–prodidå±æ€§çš„å€¼ã€‚
          * 
          * @return
          *     possible object is
@@ -501,7 +501,7 @@ public class Res {
         }
 
         /**
-         * ÉèÖÃprodidÊôĞÔµÄÖµ¡£
+         * è®¾ç½®prodidå±æ€§çš„å€¼ã€‚
          * 
          * @param value
          *     allowed object is
